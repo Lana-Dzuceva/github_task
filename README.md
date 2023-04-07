@@ -1,5 +1,5 @@
 # github_task
-
+# СДЕЛАЮ ДО КОНЦА СУТОК
 
 ## task 1
 
@@ -15,3 +15,12 @@ JOIN store_db.products
 on  order_items.id_product = products.id
 
 WHERE name = 'Вова';
+
+## task 2
+INSERT INTO store_db.orders
+(customer_name, delivery_adress, id_courier)
+VALUES ('стас1','крутая',3);
+
+INSERT INTO store_db.order_items
+(id_product, delivery_adress, id_courier)
+VALUES ('стас1','крутая',3);
